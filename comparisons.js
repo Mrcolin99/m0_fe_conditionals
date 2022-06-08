@@ -53,21 +53,23 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+//This comes back as true beacuse the question is 9 greater than 4?
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+//This comes back as false because our variable tells us that books=3 and the question being asked
+//is is 3 greater than 4.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+//This returns as true because our variables tell us that there are 6 friends and 2 siblings
+//and the question asked is are there more friends than sibilings?
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-
+//This returns as true beacuase the number of attendees and meals is not the same.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -89,15 +91,15 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+true
 
 // Determine if the dog loves to play and loves the dog park
-
+false
 
 // Determine if the dog loves to play or loves the dog park
-
+true
 
 // Determine if the dog loves to play and is a puppy
-
+Comes back as a referenceerror
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: it evaluated as a referenceerror because we have no variable that specfically says isPuppy.
